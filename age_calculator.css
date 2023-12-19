@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Averia+Serif+Libre&family=Coda&family=Kalnia:wght@300&family=Playpen+Sans:wght@300;500;600;700&family=Rancho&family=Roboto:ital@0;1&family=Suwannaphum:wght@400;900&family=Ubuntu:wght@500&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: navy;
+    font-family: 'Averia Serif Libre', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    background-color: whitesmoke;
+    min-height: 100px;
+    width: 520px;
+    margin: 100px auto;
+    border-radius: 5px;
+    height: auto;
+}
+
+.base 
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.base h4
+{
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Averia Serif Libre', sans-serif;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    font-weight: normal;
+    color: navy;
+    background: white;
+    padding: 5px;
+}
+
+.block
+{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    /* float: left; */
+
+}
+
+.title
+{
+    font-size: 20px;
+    text-align: left;
+    /* font-family: sans-serif; */
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: darkblue;
+    word-spacing: 2.7px;
+}
+
+input[type=text]
+{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid navy;
+    border-radius: 2px;
+    color: navy;
+    font-size: 17px;
+    padding: 12px;
+}
+
+input[type=text]:focus
+{
+    background: white;
+    border: 2px solid blue;
+}
+
+input[type=button]
+{
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(3, 3, 56);
+    padding: 14px 16px;
+    color: white;
+    font-size: 17px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 2s;
+}
+
+input[type=button]:hover
+{
+    background-color: rgb(52, 52, 224);
+    border:  2px solid navy;
+}
+
+.age
+{
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: 'Rancho', sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: rgb(8, 8, 62);
+    padding: 10px;
+}
